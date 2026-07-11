@@ -54,16 +54,12 @@ Copy ``Engine.ini`` (choose one config) and other ini files to this location:
 
 Please read comments inside the file, it'll disappear on game launch.
 
-<details>
-<summary>Old stuff to remove from previous config update (if you still have it)</summary><br>
-
+> [!IMPORTANT]
+Old stuff to remove from previous config (if you still have it)<br>
+If you don't do this a bunch of commands will get removed when using current ``Engine.ini``<br><br>
 ``UserEngine.ini`` in ``...Wuthering Waves\Wuthering Waves Game\Client\Config``<br>
 ``Engine.ini`` and ``run_wuwa.bat`` in ``...Wuthering Waves\Wuthering Waves Game\Client\Binaries\Win64``<br>
 Remove ``-EngineIni=Engine.ini`` in Steam launch options or exe shortcut if you previously added it.
-
----
-
-</details>
 
 **Can't find your GPU? Search [here](https://www.techpowerup.com/gpu-specs/) then open the page for the GPU and look at the relative performance.**<br>
 **You don’t have to follow this exactly and can use any config to reach your target FPS / visuals.**
