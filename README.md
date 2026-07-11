@@ -1,6 +1,6 @@
 # WuWa-Configs
 
-Please read FAQ and installation note before asking on Discord
+Please read FAQ and installation instruction before asking on Discord
 
 [<img src="https://discord.com/api/guilds/798954204420112454/widget.png?style=banner2">](https://discord.gg/gczjQvgzWE)
 
@@ -39,21 +39,31 @@ Switch to another Graphics Quality Preset then back to the same one, you can cus
 
 **TO USE OLD COLOR SETTINGS:** [https://alteriax.github.io/WuWa-Config-Info/color-settings/](https://alteriax.github.io/WuWa-Config-Info/color-settings/)
 
+---
+
+**Optional files in Common folder:**
+
+``DeviceProfiles.ini`` to show Ultra Quality Preset or 120 FPS option on unsupported GPUs **[(Must have CPU that supports 120 FPS)](https://wutheringwaves.kurogames.com/en/main/news/detail/1190)**
+
+``Input.ini`` to disable mouse smoothing and FoV scaling
+
 # Installation
 
-### PLEASE CHECK THE LOCATION PROPERLY, IT'S DIFFERENT FROM OLD ONE
+Copy ``Engine.ini`` (choose one config) and other ini files to this location: 
+> ...Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor
 
-Choose one ``UserEngine.ini`` (Game doesn't create this by default and please read comments inside)
+Please read comments inside the file, it'll disappear on game launch.
 
-Copy the file to this location:
+<details>
+<summary>Old stuff to remove from previous config update (if you still have it)</summary><br>
 
-> ...Wuthering Waves\Wuthering Waves Game\Client\Config (Launcher)<br>
-> ...Wuthering Waves\Client\Config (Steam)
-
-> [!NOTE]
-For ``Engine.ini`` in ``...Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor``, you can leave it as is.<br><br>
-If you still have ``Engine.ini`` and ``run_wuwa.bat`` in ``...Wuthering Waves\Wuthering Waves Game\Client\Binaries\Win64``, delete it.<br><br>
+``UserEngine.ini`` in ``...Wuthering Waves\Wuthering Waves Game\Client\Config``<br>
+``Engine.ini`` and ``run_wuwa.bat`` in ``...Wuthering Waves\Wuthering Waves Game\Client\Binaries\Win64``<br>
 Remove ``-EngineIni=Engine.ini`` in Steam launch options or exe shortcut if you previously added it.
+
+---
+
+</details>
 
 **Can't find your GPU? Search [here](https://www.techpowerup.com/gpu-specs/) then open the page for the GPU and look at the relative performance.**<br>
 **You don’t have to follow this exactly and can use any config to reach your target FPS / visuals.**
@@ -65,19 +75,6 @@ Remove ``-EngineIni=Engine.ini`` in Steam launch options or exe shortcut if you 
 | 3      | RTX 5050, 4060, 4050, 3060 (Ti), 3050, 2080, 2070, 2060, GTX 1660 (SUPER/Ti), 1080 (Ti), 1070 Ti | RX 7600 (XT), 6700 XT, 6650 XT, 6600 (XT), 5700 (XT), 5600 XT                    | Arc B580, B570, A770, A750, A580 |
 | 4      | RTX 3050 (Ti) Laptop, 2050, GTX 1660, 1650, 1070, 1060                                           | RX 6500 XT, 6400, 5500 XT, 590, 580, 570, Radeon 890M                            | Arc 140V, A380, Arc iGPU         |
 | 5      | GTX 1650 (Ti) Laptop, 1050 (Ti), GT 1030, MX 450, 350, 250, 150                                  | RX 560, 550, Radeon 780M, 680M, Vega iGPU                                        | A310, Iris Xe, UHD Graphics      |
-
----
-
-**Optional files in Common folder:**
-
-``DeviceProfiles.ini`` to show Ultra Quality or 120 FPS option in game settings on unsupported GPUs **[(Must have CPU that supports 120 FPS)](https://wutheringwaves.kurogames.com/en/main/news/detail/1190)**
-
-``Input.ini`` to disable mouse smoothing and FoV scaling
-
-Copy the file(s) to this location: 
-> ...Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor
-
----
 
 References: [UE4.27 Commands](https://framedsc.com/GeneralGuides/ue4_commands.htm), [UE4 Documentation](https://docs.unrealengine.com/4.27/en-US/), UE Forum
 
