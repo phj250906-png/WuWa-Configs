@@ -58,7 +58,7 @@ Copy ``Engine.ini`` (choose one config) and other ini files to this location:
 Please read comments inside the file, it'll disappear on game launch.
 
 > [!IMPORTANT]
-Current ``Engine.ini`` won't work properly if you don't delete ``UserEngine.ini``, so remove it at this location:<br>
+Current ``Engine.ini`` won't work properly if you don't delete ``UserEngine.ini`` (if you still have it), so remove it at this location:<br>
 ``...Wuthering Waves\Wuthering Waves Game\Client\Config (Launcher)``<br>
 ``...Wuthering Waves\Client\Config (Steam)``<br><br>
 Remove ``-EngineIni=Engine.ini`` in Steam launch options or exe shortcut if you previously added it.
