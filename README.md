@@ -31,6 +31,8 @@ Switch to another Graphics Quality Preset then back to the same one, you can cus
 -SkipSplash Skip intro videos
 -dx11 Launch the game with DX11
 -dx12 Launch the game with DX12
+-ResX Sets horizontal resolution
+-ResY Sets vertical resolution
 </pre>
 <a href="https://i.imgur.com/aCpObBl.png"><img src="https://i.imgur.com/aCpObBl.png" style="width: 550px; height: auto;"></a>
 </details>
@@ -50,15 +52,15 @@ Switch to another Graphics Quality Preset then back to the same one, you can cus
 # Installation
 
 Copy ``Engine.ini`` (choose one config) and other ini files to this location: 
-> ...Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor
+> ...Wuthering Waves\Wuthering Waves Game\Client\Saved\Config\WindowsNoEditor (Launcher)<br>
+> ...Wuthering Waves\Client\Saved\Config\WindowsNoEditor (Steam)
 
 Please read comments inside the file, it'll disappear on game launch.
 
 > [!IMPORTANT]
-Old stuff to remove from previous config (if you still have it)<br>
-If you don't do this a bunch of commands will get removed when using current ``Engine.ini``<br><br>
-``UserEngine.ini`` in ``...Wuthering Waves\Wuthering Waves Game\Client\Config``<br>
-``Engine.ini`` and ``run_wuwa.bat`` in ``...Wuthering Waves\Wuthering Waves Game\Client\Binaries\Win64``<br>
+Current ``Engine.ini`` won't work properly if you don't delete ``UserEngine.ini``, so remove it at this location:<br>
+``...Wuthering Waves\Wuthering Waves Game\Client\Config (Launcher)``<br>
+``...Wuthering Waves\Client\Config (Steam)``<br><br>
 Remove ``-EngineIni=Engine.ini`` in Steam launch options or exe shortcut if you previously added it.
 
 **Can't find your GPU? Search [here](https://www.techpowerup.com/gpu-specs/) then open the page for the GPU and look at the relative performance.**<br>
